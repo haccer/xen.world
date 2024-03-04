@@ -5,12 +5,12 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@fontsource/bebas-neue':
+    specifier: ^5.0.19
+    version: 5.0.19
   next:
     specifier: 14.1.1
     version: 14.1.1(react-dom@18.2.0)(react@18.2.0)
-  react:
-    specifier: ^18
-    version: 18.2.0
   react-dom:
     specifier: ^18
     version: 18.2.0(react@18.2.0)
@@ -20,7 +20,7 @@ devDependencies:
     specifier: ^20
     version: 20.11.24
   '@types/react':
-    specifier: ^18
+    specifier: ^18.2.61
     version: 18.2.61
   '@types/react-dom':
     specifier: ^18
@@ -37,6 +37,9 @@ devDependencies:
   postcss:
     specifier: ^8
     version: 8.4.35
+  react:
+    specifier: ^18.2.0
+    version: 18.2.0
   tailwindcss:
     specifier: ^3.3.0
     version: 3.4.1
@@ -99,6 +102,10 @@ packages:
     resolution: {integrity: sha512-Ys+3g2TaW7gADOJzPt83SJtCDhMjndcDMFVQ/Tj9iA1BfJzFKD9mAUXT3OenpuPHbI6P/myECxRJrofUsDx/5g==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
+
+  /@fontsource/bebas-neue@5.0.19:
+    resolution: {integrity: sha512-3s5tJTHLFGnIXw+jorZV/Am4N0D9GYtIWUXwiF03svGhyMK6FFcM7ek2+FxnXmwG9t6g+HWM/hJh5whXMahCxw==}
+    dev: false
 
   /@humanwhocodes/config-array@0.11.14:
     resolution: {integrity: sha512-3T8LkOmg45BV5FICb15QQMsyUSWrQ8AygVfC7ZG32zOalnqrilm018ZVCw0eapXux8FtA33q8PSRSstjee3jSg==}
@@ -2230,7 +2237,6 @@ packages:
     engines: {node: '>=0.10.0'}
     dependencies:
       loose-envify: 1.4.0
-    dev: false
 
   /read-cache@1.0.0:
     resolution: {integrity: sha512-Owdv/Ft7IjOgm/i0xvNDZ1LrRANRfew4b2prF3OWMQLxLfu3bS8FVhCsrSCMK4lR56Y9ya+AThoTpDCTxCmpRA==}
