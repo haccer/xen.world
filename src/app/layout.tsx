@@ -16,16 +16,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
 
-  const className = `${inter.className} flex flex-col h-screen`;
+  const className = `${inter.className} flex flex-col min-h-screen justify-between`;
 
   return (
     <html lang="en">
-      <body className={className}>
-        
+      <div className={className}>
         {children}
-
         <Footer />
-      </body>
+      </div>
     </html>
   );
 }
