@@ -34,7 +34,7 @@ interface SiteLinkProps {
 
 function SiteLink({ href }: SiteLinkProps) {
     return (
-        <span className={'text-3xl mx-16 text-white font-bebasNeue'}>
+        <span className={'text-3xl mx-16 text-gray-300 font-bebasNeue'}>
             <Link href={`https://${href}`}>
                 {href}
             </Link>
