@@ -6,7 +6,8 @@ function Footer() {
         'xener.gy',
         'xenart.co',
         'xen.art',
-        'xentzu.org'
+        'xentzu.org',
+        'supplyshark.io'
     ]
 
     return (
